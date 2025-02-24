@@ -113,6 +113,7 @@ void postOrder( TreeNodePtr treePtr )
    }
 }
 
+
 int ReinOrder( TreeNodePtr treePtr ,int n)
 { 
    // if tree is not empty, then traverse
