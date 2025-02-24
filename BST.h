@@ -122,7 +122,7 @@ int ReinOrder( TreeNodePtr treePtr ,int n)
       ReinOrder( treePtr->rightPtr ,n); //Recursion to the left
       
       int i;
-      for (i=0;i<n;i++) printf("\t");
+      for (i=0;i<n;i++) printf("   ");
 
       printf("%3d\n",treePtr->data);  //print the value 
    
